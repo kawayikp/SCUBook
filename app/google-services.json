@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "649648302636",
+    "firebase_url": "https://campus-book-demo2.firebaseio.com",
+    "project_id": "campus-book-demo2",
+    "storage_bucket": "campus-book-demo2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649648302636:android:f2ca4b7dd1ffd81e",
+        "android_client_info": {
+          "package_name": "scu.book.campus.com.campusbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649648302636-eg2rj40hgpqf9upopam6glocvujh49jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkGeIsRpCvKaEcPUczFqo7qFSZBqtg3mE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:background="#ECEFF1"
+    android:orientation="horizontal"
+    android:columnCount="2">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/book_img"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/book_cover_1"/>
+        <TextView
+            android:id="@+id/book_name"
+            style="@style/homepage_price_textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:gravity="center_horizontal"
+            android:text="Book Name"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/book_price"
+            style="@style/homepage_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:gravity="center_horizontal"
+            android:text="$ 100" />
+
+    </LinearLayout>
+</GridLayout>
+

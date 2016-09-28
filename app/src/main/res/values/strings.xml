@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Campus Book</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="search_hint">Search</string>
+
+    <string name="description">Description</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="push_notification_main">This customer wants to buy your book, please contact with him/her:</string>
+    <string name="push_notification">You can send a push notification to the seller and notify him/her that you want to buy the book!</string>
+</resources>

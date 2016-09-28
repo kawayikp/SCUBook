@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ECEFF1"
+        android:id="@+id/seller_page_sold"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Your book is posted! Please check for you email or check the buyer page to see if someone wants to buy your book! Swipe to go to home page"
+            android:id="@+id/textView_seller_sold_text"
+            style="@style/seller_textView_heading"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ECEFF1"
+        android:visibility="visible"
+        android:id="@+id/seller_page1">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Offer a Book"
+            android:id="@+id/textView_seller1_1"
+            style="@style/seller_textView_heading"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Take Photo"
+            android:id="@+id/take_photo"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Select Photo"
+            android:id="@+id/select_photo"
+            android:layout_gravity="center_horizontal"
+            android:onClick="select_p"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+
+
+
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Next"
+            android:id="@+id/button_seller1_1"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:weightSum="0.5"
+            android:orientation="horizontal">
+
+
+            <Button
+                style="@style/seller_button_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/button_seller1_2"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller1_5"/>
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/button_seller1_3"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller1_6"/>
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/button_seller1_4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ECEFF1"
+        android:visibility="gone"
+        android:id="@+id/seller_page2">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Offer a Book"
+            android:id="@+id/textView_seller2_9"
+            style="@style/seller_textView_heading"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView_seller2_1"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25"
+            android:src="@drawable/book_cover_1"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/seller_bookName_t"
+                    style="@style/seller_textView"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seller_bookName_et"
+                    style="@style/seller_textView"
+                    android:layout_alignBaseline="@+id/textView_seller1_1"
+                    android:text="Name" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ISBN"
+                    android:id="@+id/seller_isbn_t"
+                    style="@style/seller_textView"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seller_isbn_et"
+                    android:text="ISBN"
+                    style="@style/seller_textView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:id="@+id/seller_price_t"
+                    style="@style/seller_textView"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seller_price_et"
+                    style="@style/seller_textView"
+                    android:text="Price"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:id="@+id/seller_contact"
+                    style="@style/seller_textView"/>
+
+                <CheckBox
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sell"
+                    android:id="@+id/seller_sell_checkbox"
+                    android:layout_weight="0.35"
+                    android:checked="false" />
+
+                <CheckBox
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rent"
+                    android:id="@+id/seller_rent_checkbox"
+                    android:layout_weight="0.35"
+                    android:checked="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Back"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Next"
+            android:id="@+id/button_seller2_1"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:weightSum="0.5"
+            android:orientation="horizontal">
+
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/button_seller2_2"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller2_5"/>
+
+            <Button
+                style="@style/seller_button_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/button_seller2_3"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller2_6"/>
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/button_seller2_4"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ECEFF1"
+        android:visibility="gone"
+        android:id="@+id/seller_page3">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Input Contact Location"
+            android:id="@+id/seller_contact_location_t"
+            style="@style/seller_textView_heading"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:id="@+id/seller_contactlocation_et"
+            android:hint="Address" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Back"
+            android:id="@+id/button7"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Publish"
+            android:id="@+id/button_seller3_1"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:weightSum="0.5"
+            android:orientation="horizontal">
+
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/button_seller3_2"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller3_5"/>
+
+            <Button
+                style="@style/seller_button_not_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/button_seller3_3"/>
+
+            <Button
+                style="@style/seller_button_dot"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="。。。"
+                android:id="@+id/button_seller3_6"/>
+
+            <Button
+                style="@style/seller_button_next"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/button_seller3_4"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LandingPage"
+    android:orientation="vertical"
+    android:background="@drawable/sculibrary"
+    android:weightSum="1"
+    android:id="@+id/myLinear">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="0.95"
+        android:layout_height="0dp"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <ImageView
+            android:layout_width="178dp"
+            android:layout_height="222dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Campus Book"
+            android:id="@+id/icon_app"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/book_icon2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Sign up"
+            android:layout_weight="1"
+            android:id="@+id/button" />
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:visibility="visible"
+            tools:visibility="gone" />
+
+        <Button
+            style="@style/seller_button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Get Started"
+            android:layout_weight="1"
+            android:id="@+id/button2" />
+
+    </LinearLayout>
+</LinearLayout>
