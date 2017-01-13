@@ -3,6 +3,8 @@
 
 This is an app which provides student at Santa Clara University a platform to trade books. 
 
+Vedio: https://www.youtube.com/watch?v=nvZdgeKWtzo
+
 - In the app, user can sign up using their own email address or using google account to log into the app. 
 
 - A user can buy any book which is published by other users. The app will send the seller a push notification if the user wants to buy the book. 
